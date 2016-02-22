@@ -1,0 +1,18 @@
+#! /bin/bash
+
+# update
+sudo apt-get update
+sudo apt-get upgrade -y
+
+# Add VirtualBox packages
+sudo apt-get install -y libclutter-1.0-0      \
+                        libclutter-gtk-1.0-0  \
+                        libcogl15             \
+                        libclutter-gst-2.0-0  \
+                        gstreamer1.0-clutter  \
+                        libcheese-gtk23       \
+                        libcheese7            \
+                        virtualbox-guest-dkms \
+                        virtualbox-guest-x11  \
+                        xorg-video-abi-15     \
+                        xserver-xorg-core     

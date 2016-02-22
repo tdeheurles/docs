@@ -1,0 +1,178 @@
+kind: ''
+apiVersion: ''
+metadata:
+  name: ''
+  generateName: ''
+  namespace: ''
+  selfLink: ''
+  uid: ''
+  resourceVersion: ''
+  creationTimestamp: ''
+  deletionTimestamp: ''
+  labels: any
+  annotations: any
+spec:
+  replicas: 0
+  selector: any
+  template:
+    metadata:
+      name: ''
+      generateName: ''
+      namespace: ''
+      selfLink: ''
+      uid: ''
+      resourceVersion: ''
+      creationTimestamp: ''
+      deletionTimestamp: ''
+      labels: any
+      annotations: any
+    spec:
+      volumes:
+        - name: ''
+          hostPath:
+            path: ''
+          emptyDir:
+            medium: ''
+          gcePersistentDisk:
+            pdName: ''
+            fsType: ''
+            partition: 0
+            readOnly: false
+          awsElasticBlockStore:
+            volumeID: ''
+            fsType: ''
+            partition: 0
+            readOnly: false
+          gitRepo:
+            repository: ''
+            revision: ''
+          secret:
+            secretName: ''
+          nfs:
+            server: ''
+            path: ''
+            readOnly: false
+          iscsi:
+            targetPortal: ''
+            iqn: ''
+            lun: 0
+            fsType: ''
+            readOnly: false
+          glusterfs:
+            endpoints: ''
+            path: ''
+            readOnly: false
+          persistentVolumeClaim:
+            claimName: ''
+            readOnly: false
+          rbd:
+            monitors:
+              - ''
+            image: ''
+            fsType: ''
+            pool: ''
+            user: ''
+            keyring: ''
+            secretRef:
+              name: ''
+            readOnly: false
+      containers:
+        - name: ''
+          image: ''
+          command:
+            - ''
+          args:
+            - ''
+          workingDir: ''
+          ports:
+            - name: ''
+              hostPort: 0
+              containerPort: 0
+              protocol: ''
+              hostIP: ''
+          env:
+            - name: ''
+              value: ''
+              valueFrom:
+                fieldRef:
+                  apiVersion: ''
+                  fieldPath: ''
+          resources:
+            limits: any
+            requests: any
+          volumeMounts:
+            - name: ''
+              readOnly: false
+              mountPath: ''
+          livenessProbe:
+            exec:
+              command:
+                - ''
+            httpGet:
+              path: ''
+              port: ''
+              host: ''
+            tcpSocket:
+              port: ''
+            initialDelaySeconds: 0
+            timeoutSeconds: 0
+          readinessProbe:
+            exec:
+              command:
+                - ''
+            httpGet:
+              path: ''
+              port: ''
+              host: ''
+            tcpSocket:
+              port: ''
+            initialDelaySeconds: 0
+            timeoutSeconds: 0
+          lifecycle:
+            postStart:
+              exec:
+                command:
+                  - ''
+              httpGet:
+                path: ''
+                port: ''
+                host: ''
+              tcpSocket:
+                port: ''
+            preStop:
+              exec:
+                command:
+                  - ''
+              httpGet:
+                path: ''
+                port: ''
+                host: ''
+              tcpSocket:
+                port: ''
+          terminationMessagePath: ''
+          imagePullPolicy: ''
+          securityContext:
+            capabilities:
+              add:
+                - {}
+              drop:
+                - {}
+            privileged: false
+            seLinuxOptions:
+              user: ''
+              role: ''
+              type: ''
+              level: ''
+            runAsUser: 0
+      restartPolicy: ''
+      terminationGracePeriodSeconds: 0
+      activeDeadlineSeconds: 0
+      dnsPolicy: ''
+      nodeSelector: any
+      serviceAccount: ''
+      nodeName: ''
+      hostNetwork: false
+      imagePullSecrets:
+        - name: ''
+status:
+  replicas: 0

@@ -1,0 +1,21 @@
+kind: ''
+apiVersion: ''
+metadata:
+  selfLink: ''
+  resourceVersion: ''
+items:
+  - kind: ''
+    apiVersion: ''
+    metadata:
+      name: ''
+      generateName: ''
+      namespace: ''
+      selfLink: ''
+      uid: ''
+      resourceVersion: ''
+      creationTimestamp: ''
+      deletionTimestamp: ''
+      labels: any
+      annotations: any
+    data: any
+    type: ''
