@@ -1,3 +1,3 @@
-# Really simple script to control azure process
+# Really simple script to control the process
 
-New-Item C:\Test_ok
+New-Item C:\Test_ok -ItemType Directory
